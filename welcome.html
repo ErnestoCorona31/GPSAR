@@ -32,23 +32,16 @@
      <a-text value="Almacen" position="-0.5 0.6 0"></a-text>
     </a-image>
     
-     <a-image
-      src="https://cdn-icons-png.flaticon.com/512/8317/8317382.png"
-      look-at="[gps-camera]"
-      scale="15 15 15"
-      gps-entity-place="latitude: 20.398575; longitude: -101.223475;">
-     <a-text value="Cancha" position="-0.5 0.65 0"></a-text>
-    </a-image>
       
        <a-entity
         gltf-model="#canchaModel"
         look-at="[gps-camera]"
         scale="15 15 15"
-        gps-entity-place="latitude: 20.399004; longitude: -101.223359;">
+        gps-entity-place="latitude: 20.398575;; longitude: -101.223475;">
        <a-text value="Cancha" position="0 0 0"></a-text>
       </a-entity>
       
-      <a-camera gps-camera="maxDistance: 100; minDistance: 1;" rotation-reader> </a-camera>
+      <a-camera gps-camera="maxDistance: 50; minDistance: 1;" rotation-reader> </a-camera>
 
       <!-- Definir modelos GLTF aquí -->
       <a-assets>
